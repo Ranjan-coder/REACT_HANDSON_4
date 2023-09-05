@@ -1,0 +1,32 @@
+    a{
+        text-decoration: none;
+    }
+    body{
+        background: linear-gradient(rgb(171, 171, 236), rgb(247, 161, 161) , white);
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    .nvlink{
+        height: 3em;
+        border: 2px solid rgb(177, 177, 239);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px rgb(120, 117, 117);
+        font-size: larger;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #f8f9f9;
+        align-items: center;
+    }
+    td{
+        /* border-top: 1px solid black; */
+        text-align: center;
+    }
+    table{
+        height: 50vh;
+        width: 200vh;
+        border: 1px solid;
+        border-radius: 10px;
+        margin: auto;
+        background-color: #f8f9f9;
+    }
