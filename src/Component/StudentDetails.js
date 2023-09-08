@@ -25,12 +25,12 @@ function Student(){
             {data.map((item,index)=>{
                 return(
                     <tbody key={index}>
-                        <tr border='1'>
+                        <tr>
                             <td>{item.name}</td>
                             <td>{item.age}</td>
                             <td>{item.course}</td>
                             <td>{item.batch}</td>
-                            <td style={{color : "blue"}}>{item.edit}</td>
+                            <td style={{color : "blue", cursor :"pointer"}}>{item.edit}</td>
                         </tr>
                     </tbody>
                 )
