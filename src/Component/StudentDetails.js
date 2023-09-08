@@ -30,7 +30,7 @@ function Student(){
                             <td>{item.age}</td>
                             <td>{item.course}</td>
                             <td>{item.batch}</td>
-                            <td style={{color : "blue", cursor :"pointer"}}>{item.edit}</td>
+                            <td><button className="btnedit">{item.edit}</button></td>
                         </tr>
                     </tbody>
                 )

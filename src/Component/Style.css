@@ -28,6 +28,16 @@
         transform: scale(0.6);
         transition-duration: 0.5s;
     } */
+    .btnedit{
+        color: blue;
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+    .btnedit:hover{
+        text-decoration: underline;
+        text-shadow: 3px 3px 3px rgb(160, 198, 245);
+    }
 
     table{
         height: 50vh;
